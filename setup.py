@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='reescritor',
-      version='0.0.2',
+      version='0.0.4',
       description='A Python module for Spanish Spinner (Reescritor.com & DisparaTusIngresos.com)',
       long_description=open('README.rst').read(),
       long_description_content_type="text/x-rst",

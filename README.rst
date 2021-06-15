@@ -29,17 +29,19 @@ apikey = "YOUR_API"
 
 
 text_in = '''Texto en español de entrada
+
 Puedes poner lo que quieras'''
 
 
 protected = '''one word per line
+
 other word'''
 
 r = ReescritorRequest.spinner(apikey, text_in, protected, provider)
 
-print(r[text])
+print(r['text'])
 
-print(r[text_nospintax])
+print(r['text_nospintax'])
 
 
 Customer Support
